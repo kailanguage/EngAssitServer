@@ -14,4 +14,3 @@ spring:
 mybatis:
   mapper-locations: classpath*:com/kailang/engasst/mapper/*Mapper.xml
   config-location: classpath:mybatis-config.xml
-
