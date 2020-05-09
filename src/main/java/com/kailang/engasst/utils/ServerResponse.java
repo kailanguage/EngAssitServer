@@ -1,12 +1,13 @@
 package com.kailang.engasst.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 /**
  * 封装前端返回的统一实体类,返回非空字段
  * */
-@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class ServerResponse<T> {
 
     private int status; //状态 0:接口调用成功
