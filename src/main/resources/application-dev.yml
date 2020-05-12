@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@//47.95.202.171:1521/orcl
+    url: jdbc:oracle:thin:@//172.17.231.19:1521/orcl
     username: KAILANG
     password: 123456
     initial-size: 5
